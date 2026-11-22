@@ -31,3 +31,10 @@ Progress is local to a browser. Active drills are not resumed after reload. No u
 - Percentage slider recalculates the display (25 to 26 out of 100). Main call to action opens the percentage lesson.
 - Railway chip shows five relevant topic tiles and preserves the selected exam when changing language.
 - Bottom navigation has short mobile labels and safe-area padding.
+
+## Visible percentage changes
+
+- Added meaning, increase, decrease and two-change modes to the percentage lesson. Same-scale bars show before/after values; a hatched section shows the removed amount.
+- Starting-value and percentage sliders update the visual, net change and teaching steps immediately. Two changes can each increase or decrease; the second change uses the intermediate value.
+- Browser checks: 400 + 25% = 500; 400 − 25% = 300; 500 + 20% then −20% = 480 (−4%); two 20% increases = 720 (+44%); changing the second decrease to 21% gives 474 (−5.2%). Hindi controls and 390px mobile layout verified, with no browser errors or page-level horizontal overflow.
+- Added five arithmetic tests for single and successive changes, zero change, full decrease, and the original base for net percentage. Total automated checks: 13 passing.
