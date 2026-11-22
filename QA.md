@@ -23,3 +23,11 @@
 ## Known boundaries
 
 Progress is local to a browser. Active drills are not resumed after reload. No user account, cloud sync, full official mocks or complete exam syllabus. Question repetition counts in mastery. Railway mapping is provisional. External fonts gracefully fall back to installed fonts.
+
+## Mobile front page revision
+
+- Replaced the dashboard introduction with a phone-first front page, live percentage grid and slider, exam chips, a suggested next lesson, six tappable topic tiles, timed-practice entry and local progress summary.
+- Checked 390 × 844 English and 360 × 800 Hindi layouts. No page-level horizontal overflow; exam chips intentionally scroll within their row.
+- Percentage slider recalculates the display (25 to 26 out of 100). Main call to action opens the percentage lesson.
+- Railway chip shows five relevant topic tiles and preserves the selected exam when changing language.
+- Bottom navigation has short mobile labels and safe-area padding.
