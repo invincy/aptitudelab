@@ -38,3 +38,16 @@ Progress is local to a browser. Active drills are not resumed after reload. No u
 - Starting-value and percentage sliders update the visual, net change and teaching steps immediately. Two changes can each increase or decrease; the second change uses the intermediate value.
 - Browser checks: 400 + 25% = 500; 400 − 25% = 300; 500 + 20% then −20% = 480 (−4%); two 20% increases = 720 (+44%); changing the second decrease to 21% gives 474 (−5.2%). Hindi controls and 390px mobile layout verified, with no browser errors or page-level horizontal overflow.
 - Added five arithmetic tests for single and successive changes, zero change, full decrease, and the original base for net percentage. Total automated checks: 13 passing.
+
+## Kids Lab · 24 November 2026
+
+- 12 original bilingual playgrounds, 60 unique three-choice practice questions with explanations, optional browser read-aloud, local completion scores and JSON export.
+- Browser checked counting/tap sequence and zero, comparing groups, addition hops, balloon take-away and difference modes, 23 − 8 regrouping, array rotation, fair sharing with a remainder, fraction selection, repeating patterns, shape rotation, shop change, clock hands, ruler length and four mental-maths methods.
+- A five-question round was completed with one initial wrong answer corrected. The completion score remained 4/5 on the first try, and persisted after reload.
+- Confirmed 10 stars shared among 3 friends displays 3 each and 1 left in the pool. Confirmed 23 − 8 ends at 1 ten and 5 ones. The regrouping control is disabled after completion until replay/reset.
+- Confirmed ×9 reasoning, 99 × 11 = 1089 with regrouping-safe arithmetic, and 98 × 97 = 9506 using a base-100 strip/overlap model.
+- Checked English at 390px, Hindi at 360px, and the desktop home. Mobile had no page-level horizontal overflow. Tested the link between the existing Exam Lab and Kids Lab.
+- Read-aloud dispatch reports available browser playback; actual Hindi voice availability is device-dependent. Text remains available throughout.
+- 24 automated tests passed. An addition rendering issue introduced while adding the regrouping story was found and fixed before publication; all playground render checks subsequently passed.
+- Official NCERT framework text and indexed teacher guidance informed the approach. Full textbook and handbook requests failed; source limitations are displayed in the grown-up page. No book exercise or artwork was copied.
+- Scope: introductory activities for the agreed 12 areas, not a complete grade-by-grade curriculum. Progress is device-local; no child identity, account or cross-device sync.
