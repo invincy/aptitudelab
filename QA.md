@@ -51,3 +51,12 @@ Progress is local to a browser. Active drills are not resumed after reload. No u
 - 24 automated tests passed. An addition rendering issue introduced while adding the regrouping story was found and fixed before publication; all playground render checks subsequently passed.
 - Official NCERT framework text and indexed teacher guidance informed the approach. Full textbook and handbook requests failed; source limitations are displayed in the grown-up page. No book exercise or artwork was copied.
 - Scope: introductory activities for the agreed 12 areas, not a complete grade-by-grade curriculum. Progress is device-local; no child identity, account or cross-device sync.
+
+## Carrying and teaching view · 25 November 2026
+
+- Added the thirteenth bilingual playground and five original questions (65 Kids Lab questions). All 28 automated checks pass, including exhaustive permitted addition/subtraction arithmetic.
+- Browser verified 27 + 18 = 45, the ten-ones exchange, 52 − 27 = 25 with crossed removed blocks, 52 − 52 = 0, and no-exchange 10 + 1 = 11.
+- Sliders reset the lesson to step one. Reducing the starting number clamps subtraction's second number to its new maximum.
+- All five new practice questions completed with 5/5 first-try score.
+- English/Hindi controls, narrow phone layout with no horizontal overflow, desktop teaching layout and teaching-view exit checked. Teaching view preserves live controls and hides surrounding navigation.
+- Saved a full-page teaching-view screenshot. No video export was requested or produced.
