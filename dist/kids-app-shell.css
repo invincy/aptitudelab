@@ -26,3 +26,5 @@
 .shelf-pager button{flex:1;min-width:0;white-space:normal}.shelf-pager>span{flex:0 0 auto}.adventure-shelf{min-width:0}
 @media(prefers-reduced-motion:no-preference){.touch-star.counted{animation:star-pop .22s ease-out}@keyframes star-pop{50%{transform:scale(1.12)}}}
 .kid-filters{margin-left:0;margin-right:0;padding-left:0;padding-right:0;width:100%}
+
+.kids-header>div{gap:5px}.kids-header a.kid-icon-button{text-decoration:none;display:grid;place-items:center}.kids-header #kid-sound{font-size:.75rem;padding:8px;max-width:72px}.kids-header .kids-brand{font-size:.9rem;gap:5px}@media(max-width:400px){.kids-header{padding:0 8px}.kids-brand b{display:none}.kids-header .kid-icon-button{padding:8px}.kids-header>div{gap:4px}}
