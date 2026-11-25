@@ -65,3 +65,11 @@ Expand the reviewed question bank and syllabus coverage; add account-based sync 
 
 Kids Lab uses one mobile app shell with four-card adventure shelves and Play / Understand / Try tabs. Countable practice objects must be touched before answer choices unlock. See KIDS_DESIGN.md for the shared rules.
 
+
+## Independent student hosting
+
+Primary student URL: https://invincy.github.io/aptitudelab/
+
+The root opens a bilingual Kids Lab / Exam Prep choice. Exam Prep is at exams.html. GitHub Pages publishes dist/ automatically after passing tests on main. The repository is public with the owner's authorization. The old private ChatGPT Site is a previous backup, not the student entry point. Students need no ChatGPT login.
+
+Star taps speak the counting sequence through device speech synthesis in English or Hindi. Sound can be muted and the choice persists locally. Voices depend on the browser/device; visual counting always works. Rapid taps replace pending speech rather than build a delayed queue. Existing progress on the old host does not automatically transfer to the new domain; the old host's export remains available.
