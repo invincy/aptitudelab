@@ -73,3 +73,7 @@ Primary student URL: https://invincy.github.io/aptitudelab/
 The root opens a bilingual Kids Lab / Exam Prep choice. Exam Prep is at exams.html. GitHub Pages publishes dist/ automatically after passing tests on main. The repository is public with the owner's authorization. The old private ChatGPT Site is a previous backup, not the student entry point. Students need no ChatGPT login.
 
 Star taps speak the counting sequence through device speech synthesis in English or Hindi. Sound can be muted and the choice persists locally. Voices depend on the browser/device; visual counting always works. Rapid taps replace pending speech rather than build a delayed queue. Existing progress on the old host does not automatically transfer to the new domain; the old host's export remains available.
+
+## Teddy theme and Gemini Aoede setup
+
+Kids Lab uses original SVG teddy guides and a shared soft pastel theme. Counting currently uses device speech; Gemini Aoede recordings have not been generated because no Gemini key is configured. To prepare them, set GEMINI_API_KEY in a secure local environment, then run node scripts/generate-count-voices.mjs. This makes 42 generation requests (0–20, English and Hindi), which may consume the account's API quota. Listen to the resulting audio before committing dist/audio/aoede and dist/count-recordings.js. The browser will then play these recordings on taps, with device speech as fallback. Never embed the key in the public website or commit it. No child data is sent to Gemini; generation uses only number words.
