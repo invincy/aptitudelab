@@ -52,7 +52,7 @@ No accounts, server database, analytics or cloud sync. Progress is stored under 
 
 Eight Node test cases cover bilingual content integrity, valid answer keys, scoring and penalties, exam/topic filtering, mastery windows, timer expiry arithmetic, storage recovery and shuffling. Browser QA covered lesson completion, a manipulated percentage slider, quiz feedback, submission and skipped results, timed setup and navigation, saved progress across reload, Hindi switching and a 390px mobile layout. Browser QA notes are in `QA.md`.
 
-The current suite has 28 passing tests, including percentage changes and Kids Lab content integrity, all permitted near-100 products, tens exchanges, sharing remainders, clock hands and guided regrouping. Kids Lab browser QA covered all 13 playgrounds, a full corrected-answer practice round, progress persistence, read-aloud dispatch, stage filters, and English/Hindi phone layouts.
+The current suite has 30 passing tests, including percentage changes and Kids Lab content integrity, all permitted near-100 products, tens exchanges, sharing remainders, clock hands and guided regrouping. Kids Lab browser QA covered all 13 playgrounds, a full corrected-answer practice round, progress persistence, read-aloud dispatch, stage filters, and English/Hindi phone layouts.
 
 ## Teaching view
 
@@ -61,4 +61,7 @@ Open `/kids.html?lab=regroup` for carrying and borrowing. Four steps show the or
 ## Next development
 
 Expand the reviewed question bank and syllabus coverage; add account-based sync and question-level spaced repetition; build notification-specific full mocks with independently verified pattern metadata. Keep official-source review dates explicit and all questions original.
+
+
+Kids Lab uses one mobile app shell with four-card adventure shelves and Play / Understand / Try tabs. Countable practice objects must be touched before answer choices unlock. See KIDS_DESIGN.md for the shared rules.
 

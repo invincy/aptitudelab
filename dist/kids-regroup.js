@@ -20,6 +20,6 @@ export function regroupScene(bi){const s=regroupSettings,m=regroupModel(s.mode,s
 export function bindRegroup(bi){const s=regroupSettings;
  const update=()=>{document.querySelector('#play-scene').innerHTML=regroupScene(bi);bindButtons();};
  const bindButtons=()=>{document.querySelector('#regroup-back').onclick=()=>{s.step=Math.max(0,s.step-1);update();document.querySelector('#regroup-back').focus({preventScroll:true});};document.querySelector('#regroup-next').onclick=()=>{s.step=(s.step+1)%4;update();document.querySelector('#regroup-next').focus({preventScroll:true});};};
- document.querySelector('#regroup-mode').onchange=e=>{s.mode=e.target.value;s.a=s.mode==='add'?27:52;s.b=s.mode==='add'?18:27;s.step=0;document.querySelector('#play-controls').innerHTML=regroupControls(bi);bindRegroup(bi);update();};
+ document.querySelector('#regroup-mode').onchange=e=>{s.mode=e.target.value;s.a=s.mode==='add'?27:52;s.b=s.mode==='add'?18:27;s.step=0;document.querySelector('#play-controls>div').innerHTML=regroupControls(bi);bindRegroup(bi);update();};
  document.querySelectorAll('[data-regroup-setting]').forEach(input=>input.oninput=()=>{s[input.dataset.regroupSetting]=Number(input.value);if(s.mode==='subtract'&&s.b>s.a)s.b=s.a;document.querySelector('#regroup-b').max=s.mode==='add'?49:s.a;document.querySelector('#regroup-b').value=s.b;document.querySelector('#regroup-out-a').textContent=s.a;document.querySelector('#regroup-out-b').textContent=s.b;s.step=0;update();});bindButtons();
 }

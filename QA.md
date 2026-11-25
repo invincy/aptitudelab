@@ -60,3 +60,11 @@ Progress is local to a browser. Active drills are not resumed after reload. No u
 - All five new practice questions completed with 5/5 first-try score.
 - English/Hindi controls, narrow phone layout with no horizontal overflow, desktop teaching layout and teaching-view exit checked. Teaching view preserves live controls and hides surrounding navigation.
 - Saved a full-page teaching-view screenshot. No video export was requested or produced.
+
+## Kids app shell and touch-first practice · 25 November 2026
+
+- Replaced the long children's home with four-card adventure shelves and stage filters. All 13 lessons use the same Play / Understand / Try layout, shared buttons and foldable number controls.
+- Countable visual questions require touching every object before choices appear. Touched objects show counting order, cannot be counted twice, and retain state through language switching. Early hints teach counting without revealing the answer.
+- Browser checked a complete 5/5 counting round, including 4-star and 12-star questions; wrong-answer correction; Hindi switching during counting; every lesson's shared tabs and visible scene; and borrowing controls after their disclosure rebuild.
+- Home and default counting fit the 390 × 844 phone screen. Hindi home also checked at 360 × 800; dense activities and expanded settings retain accessible local scrolling. Desktop teaching view checked at 1280 × 900.
+- 30 automated tests pass, including duplicate/out-of-order/invalid touch handling and the answer-unlock condition. No browser script errors observed.
